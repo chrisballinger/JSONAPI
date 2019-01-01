@@ -210,4 +210,5 @@ encoder.outputFormatting = .prettyPrinted
 let jsonData = try! encoder.encode(singleArticleDocument)
 
 // MARK: - Printing JSON
-print(String(data: jsonData, encoding: .utf8)!)
+//print(String(data: jsonData, encoding: .utf8)!)
+print(SingleArticleDocument.jsonStructure)
